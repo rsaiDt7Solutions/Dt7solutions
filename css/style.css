@@ -2278,7 +2278,7 @@ nav.navbar.bootsnav .heder-menu-button .navbar-toggler {float: none; padding: 0;
 
 /* menu center */
 .menu-center .header-right {flex: 1 2 auto;}
-.navbar-collapse {padding-left: 400px; padding-right: 0; min-height: 0px;}
+.navbar-collapse {padding-left: 0px; padding-right: 0; min-height: 0px;}
 
 /* menu center logo */
 .menu-logo-center .navbar-left > li {float: none; display: inline-block; vertical-align: middle;}
@@ -3888,4 +3888,11 @@ aside .instafeed-grid.gutter-extra-large, footer .instafeed-grid.gutter-extra-la
      overflow: hidden;
      text-align: justify;
 
+}
+
+@media (max-width: 767px){
+.font-mobile{
+    font-size: 20px!important;
+    line-height: 28px!important;
+}
 }
